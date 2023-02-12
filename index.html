@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/pricing.css">
     <link rel="stylesheet" href="./assets/css/cloud_stars.css">
     <link rel="stylesheet" href="./assets/css/pokermon.css">
+    <link rel="stylesheet" href="./assets/css/whatsapp_float.css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Parisienne&amp;display=swap" rel="stylesheet">
@@ -27,6 +28,18 @@
     <script src="https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js"></script>
 <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
 <body _c_t_common="1" _c_t_j1="1">
+     <!-- WHATSAPP FLOAT -->
+     <link
+     rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+   <a
+     href="https://api.whatsapp.com/send?phone=5493517860065&text=Hola%20Sergio!%20C%C3%B3mo%20est%C3%A1s?%20Quer%C3%ADa%20contactarme%20con%20vos%20por%20el%20siguiente%20tema..."
+     class="float"
+     target="_blank"
+   >
+     <i class="fa fa-whatsapp my-float"></i>
+   </a>
     <canvas class="background" style="z-index: 1; pointer-events: none; position: fixed !important; width: 100%; height: 100%;" width="356" height="839"></canvas>
     <!-- Move to up bottom -->
     <!-- <div class="scroll-button" style="display: none;">
@@ -108,36 +121,23 @@
     <hr>
     <br><br>
     <div class="w3-container w3-padding-large" style="position: relative; z-index: 2;">
-        <div id="about" style="margin-top: -100px; height: 170px;"></div>
-        <div class="w3-col l5" style="display: flex; justify-content: center; opacity: 0.9;">
-            <img data-src="./assets/images/me_picture.jpg" class="lazy" style="height: auto; width: 350px; margin: 10px; transform: translate(0px, 0px); opacity: 1;" src="./assets/images/me_picture.jpg">
+        <div id="about" data-aos="flip-right" style="margin-top: -100px; height: 170px;"></div>
+        <div class="w3-col l5" style="display: flex; justify-content: center; opacity: 0.9;" data-aos="flip-right" >
+            <img data-src="./assets/images/me_picture.jpg" class="lazy" style="height: auto; width: 350px; margin: 10px; transform: translate(0px, 0px); opacity: 1;" src="./assets/images/me_picture.jpg" >
         </div>
         <div class="w3-col l7 description">
            <h3>
-         
-                Apasionado autodidacta y cursante de la Licenciantura en <br>
-                Ciencias de la Computacion en la Universidad Nacional de Cordoba.<br>
-                Como QA Tester diseño y efectuo Test Cases exploratorios, de regresion, smoke tests, y automatizo pruebas con Selenium, Behave<br>
-                y Python, para escenarios reproducibles, aumentando el coverage del testing en la aplicacion (Web, Mobile o Desktop).<br>
-           
-                He realizado algunos proyectos web, usando en el FrontEnd: <br>
-                HTML5, CSS3, Grid, Flexbox, Bootstrap, TypeScript, JS, Angular y <br>
-                Bootstrap, todos responsive design, en la parte de base de datos SQL Server y MySQL conectandolo <br>
-                al BackEnd a traves de MVC, consumiendo alguna ApiRest que haya creado, escrita en C# mediante ASP.Net, o Python mediante Django,<br>
-                y comunicarlo con peticiones HTTP en JSON, tambien uso CORS para conectar el Frontend y Backend.<br>
-                Sigo aprendiendo para brindar mejores servicios/productos/experiencias de usuario, <br>
-                que sean gratificantes para quien las reciba.<br>
-                Profesional en calidad de sistemas. Con +2 años de experiencia, interesada en nuevos desafíos, creo
-                ﬁrmemente que es necesario la solidaridad y cooperación para alcanzar objetivos en equipo.
+    
+            <div>
+                <h2 class="services" data-text="About Me">About Me</h2>
                 
-                Passionate about innovation and technologies 
-                entusiata y creativo
-                go with a positive attitude and use creativity
-                to solve problems
-                excelente comunicacion y habilidades intrapersonales
-                skills: teamwork it means progress
-             
-          
+            </div> 
+                 
+               Professional in quality systems. With +2 years of experience, proactive, dynamic, <br>
+               respectful, creative, passionate about innovation and technology, always with a <br>
+               positive attitude to solve problems, with interpersonal skills and good communication <br>
+               worked and iterated for years, I believe that teamwork means progress<br>
+               I am oriented to continuous improvement processes.<br>
         </h3>
         </div>
     </div><br><br>
@@ -501,11 +501,14 @@
             <span style="--i:7">u</span>
             <span style="--i:8">s</span>
             <span style="--i:9">&nbsp;</span>
-            <span style="--i:10">W</span>    
-            <span style="--i:11">o</span>       
-            <span style="--i:12">r</span>     
-            <span style="--i:13">k</span>     
-            <span style="--i:14">s</span>      
+            <span style="--i:10">P</span>    
+            <span style="--i:11">r</span>       
+            <span style="--i:12">o</span>     
+            <span style="--i:13">y</span>     
+            <span style="--i:14">e</span>
+            <span style="--i:10">c</span>    
+            <span style="--i:11">t</span>       
+            <span style="--i:12">s</span>     
         </div>
     </div>
     <div class="filters filter-button-group" style=" position: relative; z-index: 2;">
@@ -516,99 +519,73 @@
             <li><a href="javascript:void(0);" data-filter="blockchain" id="blockchain">Mobile</a></li>
         </ul>
     </div>
-	<div id="container" class="isotope" style="position: relative; z-index: 2; opacity: 0.9; width: 400px; height: 3108px;">    
-		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 0px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/accounting.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/accounting.png" src="./assets/images/portfolio/accounting.png" style="transform: translate(0px, 0px); opacity: 1;">
+	<div id="container" class="isotope" style="position: relative; z-index: 2;  width: 400px; height: 3108px;">    
+		
+        
+        <div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 0px;" data-page="1">
+            <a class="popupimg" href="https://sergioortiz178.netlify.app/" target="_blank">
+                <img class="lazy" data-src="./assets/images/PreviusPortfolio.png" src="./assets/images/PreviusPortfolio.png" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://www.accointing.com/" target="_blank" class="imageLink" title="https://www.accointing.com/">React + Next + TypeScript</a></div>
+            <div class="_overlay"><a href="https://sergioortiz178.netlify.app/" target="_blank" class="imageLink" title="https://sergioortiz178.netlify.app/">Portfolio</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 259px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/bluejestic.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/bluejestic.png" src="./assets/images/portfolio/bluejestic.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://pilmoneydcwallet.netlify.app" target="_blank">
+                <img  data-src="./assets/images/PILWALLET3.png" src="./assets/images/PILWALLET3.png" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://bluejestic.com/" target="_blank" class="imageLink" title="https://bluejestic.com/">Next + TypeScript + TailwindCSS</a></div>
+            <div class="_overlay"><a href="https://pilmoneydcwallet.netlify.app" target="_blank" class="imageLink" title="https://pilmoneydcwallet.netlify.app">Wallet Virtual</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="blockchain" style="position: absolute; left: 0px; top: 518px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/colexion.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/colexion.png" src="./assets/images/portfolio/colexion.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://portafolio1sergio.netlify.app/cafe/blogdecafe_fin/index.html" target="_blank">
+                <img class="lazy" data-src="./assets/images/VeneCafe.jpg" src="./assets/images/VeneCafe.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://colexion.io/" target="_blank" class="imageLink" title="https://colexion.io/">React + NodeJS + Web3</a></div>
+            <div class="_overlay"><a href="https://portafolio1sergio.netlify.app/cafe/blogdecafe_fin/index.html" target="_blank" class="imageLink" title="https://portafolio1sergio.netlify.app/cafe/blogdecafe_fin/index.html">Vene Cafe</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="blockchain" style="position: absolute; left: 0px; top: 777px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/everburn.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/everburn.png" src="./assets/images/portfolio/everburn.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://practicabienesraices17.netlify.app/" target="_blank">
+                <img class="lazy" data-src="./assets/images/BienesRaices.jpg" src="./assets/images/BienesRaices.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://everburn.io/" target="_blank" class="imageLink" title="https://everburn.io/">React + Web3 + Solidity</a></div>
+            <div class="_overlay"><a href="https://practicabienesraices17.netlify.app/" target="_blank" class="imageLink" title="https://practicabienesraices17.netlify.app/">Vene Raices</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 1036px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/graphicrhino.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/graphicrhino.png" src="./assets/images/portfolio/graphicrhino.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://frontedstore17.netlify.app/index.html" target="_blank">
+                <img class="lazy" data-src="./assets/images/FrontEnd.jpg" src="./assets/images/FrontEnd.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://graphicrhino.be" target="_blank" class="imageLink" title="https://graphicrhino.be">React Hooks + SCSS</a></div>
+            <div class="_overlay"><a href="https://frontedstore17.netlify.app/index.html" target="_blank" class="imageLink" title=https://frontedstore17.netlify.app/index.html"">E-Comeerce</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 1295px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/hugeinc.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/hugeinc.png" src="./assets/images/portfolio/hugeinc.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://portafolio1sergio.netlify.app/festivalmusica/" target="_blank">
+                <img class="lazy" data-src="./assets/images/Festival.jpg" src="./assets/images/Festival.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://www.hugeinc.com/" target="_blank" class="imageLink" title="https://www.hugeinc.com/">MERN stack</a></div>
+            <div class="_overlay"><a href="https://portafolio1sergio.netlify.app/festivalmusica/" target="_blank" class="imageLink" title="https://portafolio1sergio.netlify.app/festivalmusica/">Festival</a></div>
         </div>
+
+
 		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 1554px;" data-page="1">
-            <a class="popupimg" href="./assets/images/portfolio/mazda.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/mazda.png" src="./assets/images/portfolio/mazda.png" style="transform: translate(0px, 0px); opacity: 1;">
+            <a class="popupimg" href="https://portafolio1sergio.netlify.app/appsalon/" target="_blank">
+                <img class="lazy" data-src="./assets/images/Barberia.jpg" src="./assets/images/Barberia.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://www.mazda.com.au/" target="_blank" class="imageLink" title="https://www.mazda.com.au/">React + Redux + SCSS</a></div>
+            <div class="_overlay"><a href="https://portafolio1sergio.netlify.app/appsalon/" target="_blank" class="imageLink" title="https://portafolio1sergio.netlify.app/appsalon/">Barberia</a></div>
         </div>
-		<div class="grid-item" data-filter="blockchain" style="position: absolute; left: 0px; top: 1813px;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/mercafantasy.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/mercafantasy.png" src="./assets/images/portfolio/mercafantasy.png" style="transform: translate(0px, 0px); opacity: 1;">
+
+        <div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 1554px;" data-page="1">
+            <a class="popupimg" href="https://portafolio1sergio.netlify.app/" target="_blank">
+                <img class="lazy" data-src="./assets/images/PrimerPortafolio.jpg" src="./assets/images/PrimerPortafolio.jpg" style="transform: translate(0px, 0px); opacity: 1;">
             </a>
-            <div class="_overlay"><a href="https://mercafantasy.com/" target="_blank" class="imageLink" title="https://mercafantasy.com/"> ParticleJS + Web3</a></div>
-        </div>
-		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 2072px;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/momnpop.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/momnpop.png" src="./assets/images/portfolio/momnpop.png" style="transform: translate(0px, 0px); opacity: 1;">
-            </a>
-            <div class="_overlay"><a href="https://test.momnpophub.com/" target="_blank" class="imageLink" title="https://test.momnpophub.com/">MERN stack</a></div>
-        </div>
-		<div class="grid-item" data-filter="animation" style="position: absolute; left: 0px; top: 2331px;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/motelycrowd.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/motelycrowd.png" src="./assets/images/portfolio/motelycrowd.png" style="transform: translate(0px, 0px); opacity: 1;">
-            </a>
-            <div class="_overlay"><a href="https://www.motleycrowd.live/" target="_blank" class="imageLink" title="https://www.motleycrowd.live/">React + Next + ThreeJS</a></div>
-        </div>
-		<div class="grid-item" data-filter="website" style="position: absolute; left: 0px; top: 2590px;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/patternbrands.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/patternbrands.png" src="./assets/images/portfolio/patternbrands.png" style="transform: translate(0px, 0px); opacity: 1;">
-            </a>
-            <div class="_overlay"><a href="https://www.patternbrands.com/" target="_blank" class="imageLink" title="https://www.patternbrands.com/">React + Styled Component</a></div>
-        </div>
-		<div class="grid-item" data-filter="animation" style="position: absolute; left: 0px; top: 2849px;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/shop_qcterme.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/shop_qcterme.png" src="./assets/images/portfolio/shop_qcterme.png" style="transform: translate(0px, 0px); opacity: 1;">
-            </a>
-            <div class="_overlay"><a href="https://shop.qcterme.com/" target="_blank" class="imageLink" title="https://shop.qcterme.com/">React + GSAP</a></div>
-        </div>
-		<div class="grid-item" data-filter="blockchain" style="position: absolute; left: 0px; top: 777px; display: none;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/solsnatcher.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/solsnatcher.png">
-            </a>
-            <div class="_overlay"><a href="https://solsnatchers.com/" target="_blank" class="imageLink" title="https://solsnatchers.com/">HTML + Bootstrap + JQuery</a></div>
-        </div>
-		<div class="grid-item" data-filter="website" style="position: absolute; left: 400px; top: 777px; display: none;" data-page="2">
-            <a class="popupimg" href="./assets/images/portfolio/strv.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/strv.png">
-            </a>
-            <div class="_overlay"><a href="https://www.strv.com/" target="_blank" class="imageLink" title="https://www.strv.com/">React + Next + Express</a></div>
-        </div>
-		<div class="grid-item" data-filter="animation" style="position: absolute; left: 800px; top: 777px; display: none;" data-page="3">
-            <a class="popupimg" href="./assets/images/portfolio/ueno.png" target="_blank">
-                <img class="lazy" data-src="./assets/images/portfolio/ueno.png">
-            </a>
-            <div class="_overlay"><a href="https://interview.ueno.co/" target="_blank" class="imageLink" title="https://interview.ueno.co/">React + ThreeJS</a></div>
+            <div class="_overlay"><a href="https://portafolio1sergio.netlify.app/" target="_blank" class="imageLink" title="https://portafolio1sergio.netlify.app/">1º Portfolio</a></div>
         </div>
 
 	</div><div class="isotope-pager" style="padding-top: 15px; text-align:center; position: relative; z-index: 3;"><a href="javascript:void(0);" class="pager" data-page="1">1</a><a href="javascript:void(0);" class="pager" data-page="2">2</a><a href="javascript:void(0);" class="pager" data-page="3">3</a></div>
+    
     
     
 
@@ -653,11 +630,11 @@
             </div>
             <div class="w3-col l4  w3-dark-grey">
                 <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
-                <p><a href="https://github.com/prowebdev119" target="_blank" title="https://github.com/prowebdev119" style="text-decoration: underline; color: white;"> Git Hub </a></p>
+                <p><a href="https://github.com/sergioortiz17" target="_blank" title="https://github.com/sergioortiz17" style="text-decoration: underline; color: white;"> Git Hub </a></p>
             </div>
             <div class="w3-col l4">
                 <p><i class="fa fa-telegram w3-xxlarge w3-text-light-grey"></i></p>
-                <p><a href="https://t.me/compete119" target="_blank" title="https://t.me/compete119" style="text-decoration: underline; color: white;"> Telegram </a></p>
+                <p><a href="https://t.me/sergio170992" target="_blank" title="https://t.me/sergio170992" style="text-decoration: underline; color: white;"> Telegram </a></p>
             </div>
             <div class="w3-col l4  w3-dark-grey">
                 <p><i class="fa fa-skype w3-xxlarge w3-text-light-grey"></i></p>
@@ -689,7 +666,7 @@
     <div class="footer" style=" position: relative; z-index: 2;">
         <p class="contact-title"> © Last Updated On Jan 1 2022 </p>
     </div>
-
+   
     <!-- Button -->
     <button class="scroll-btn _top" style="z-index: 10;">
         <span class="scroll-btn__sign">Scroll Down</span>

@@ -264,12 +264,16 @@ function letterLoading (target) {
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
+
 };
 
 const texts = [
     "Interested?",
-    "Contact Me"
+    "Contact Me",
+
 ];
+
+
 
 const morphTime = 1;
 const cooldownTime = 0.25;

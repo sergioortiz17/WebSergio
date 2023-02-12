@@ -17,4 +17,20 @@
   .my-float {
     margin-top: 16px;
   }
-  
+  .about-image img {
+    max-width: 
+    700px;
+  }
+
+  .about-image {
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+  }
+
+  .about-image img {
+    min-width: 200px;
+  }
